@@ -1,7 +1,8 @@
 {
-  "name": "nraveren",
+  "name": "web-design-system-template",
   "version": "0.1.0",
   "private": true,
+  "description": "Web Design template with custom design system",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
