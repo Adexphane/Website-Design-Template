@@ -10,6 +10,17 @@
 !.yarn/releases
 !.yarn/versions
 
+# Add .gitkeep to empty folders
+touch src/components/ui/.gitkeep
+touch src/components/layout/.gitkeep
+touch src/lib/.gitkeep
+touch src/types/.gitkeep
+touch src/constants/.gitkeep
+touch src/styles/.gitkeep
+
+# Or do it all at once
+find src -type d -empty -exec touch {}/.gitkeep \;
+
 # testing
 /coverage
 
